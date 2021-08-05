@@ -60,7 +60,6 @@ function randomHole(holes) {
 }
 
 function peek() {
-  const time = uptime(650, 400);
   const time = uptime(700, 420);
   //console.log(time);
   const hole = randomHole(holes);
